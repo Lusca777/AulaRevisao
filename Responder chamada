@@ -23,7 +23,7 @@ public class Principal {
     p2.nome = "Andre";
     p2.ra = "948649";
     p2.idade = 29;
-    System.out.println(p2.nome);
+    System.out1^.println(p2.nome);
     p2.responderChamada(2);
     }
 }
