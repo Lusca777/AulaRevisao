@@ -1,7 +1,7 @@
 Codigo responder chamada
 public class Pessoa {
   public String nome; //Nome(String)
-  public String ra; //RA(String)
+  public String ra; //RA(String) //obs out 1
   public int idade; //Idade()int
 
   public void responderChamada(int resposta) {
@@ -15,15 +15,18 @@ public class Principal {
   public static void main(String[] args) {
     Pessoa p1 = new Pessoa();
     p1.nome = "Antonio"; //pessoa
-    p1.ra = "16981"; //RA
+    p1.ra = "5147631013148"; //RA
     p1.idade = 24; //Idade
     System.out.println(p1.nome); //Imprimir o nome da pessoa
     p1.responderChamada(1); //Responder a chamada
     Pessoa p2 = new Pessoa();
     p2.nome = "Andre";
-    p2.ra = "948649";
-    p2.idade = 29;
-    System.out1^.println(p2.nome);
+    p2.ra = "6002756112495";
+    p2.idade = 41;
+    P3.nome = "Diogo"
+    p3.ra = "9211486175310";
+    p3.idade = 18
+    System.out.println(p2.nome);
     p2.responderChamada(2);
     }
 }
