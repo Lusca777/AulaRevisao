@@ -1,0 +1,59 @@
+Codigo contaBancaria
+public class Conta {
+public String agencia;
+public int conta;
+public int número_do_banco;
+public float saldo;
+public void dados_bancarios() {
+System.out.println();
+Prova 2
+}
+}
+public class contaBancaria {
+public static void main(String[] args) {
+Conta c1 = new Conta();
+c1.agencia = "97446";
+c1.conta = 161354;
+c1.número_do_banco = 40;
+c1.saldo = (float) 41.2;
+System.out.println(c1.agencia);
+}
+}
+Codigo aulaReposição
+public class Time {
+public String nome;
+public int idade;
+public int rnTitulos;
+@Override
+public String toString() {
+return this.nome + " - " + this.idade + " - " + this.rnTitulos;
+}
+}
+import java.util.ArrayList;
+public class Principal {
+public static void main(String[] args) {
+Time t1 = new Time();
+t1.nome = "Flamengo";
+t1.idade = 143;
+t1.rnTitulos = 3;
+Time t2 = new Time();
+t2.nome = "Fluminense";
+t2.idade = 103;
+t2.rnTitulos = 1;
+Time t3 = new Time();
+t3.nome = "Vasco";
+t3.idade = 125;
+t3.rnTitulos = 4;
+ArrayList<Time> listaFutebol = new ArrayList<>();
+listaFutebol.add(t1);
+Prova 3
+listaFutebol.add(t2);
+listaFutebol.add(t3);
+System.out.println(listaFutebol.get(0).toString());
+System.out.println(listaFutebol.get(1).toString());
+System.out.println(listaFutebol.get(2).toString());
+for (int i = 0; i < listaFutebol.size(); i++) {
+System.out.println(listaFutebol.get(i).toString());
+}
+}
+}
