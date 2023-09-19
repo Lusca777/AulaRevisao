@@ -23,10 +23,11 @@ public class Principal {
     p2.nome = "Andre";
     p2.ra = "6002756112495";
     p2.idade = 41;
-    P3.nome = "Diogo"
+    p3.nome = "Diogo"
     p3.ra = "9211486175310";
     p3.idade = 18
     System.out.println(p2.nome);
     p2.responderChamada(2);
+    p3.responderChamada(3);
     }
 }
