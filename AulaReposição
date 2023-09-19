@@ -1,5 +1,5 @@
 Codigo contaBancaria
-public class Conta {
+public class Conta {    // Obs 1
 public String agencia;
 public int conta;
 public int número_do_banco;
@@ -46,7 +46,6 @@ t3.idade = 125;
 t3.rnTitulos = 4;
 ArrayList<Time> listaFutebol = new ArrayList<>();
 listaFutebol.add(t1);
-Prova 3
 listaFutebol.add(t2);
 listaFutebol.add(t3);
 System.out.println(listaFutebol.get(0).toString());
@@ -57,3 +56,31 @@ System.out.println(listaFutebol.get(i).toString());
 }
 }
 }
+import java.util.Arraylist
+public class Lista_Aleatoria{
+public static void main(String
+
+Exercício de Reforço do Bruno
+
+import java.util.ArrayList;
+public class Lista {
+    public static void main(String[] args) {
+        ArrayList<Integer> placas = new ArrayList<>();
+        placas.add(104);
+        placas.add(404);
+        placas.add(600);
+        for (int i = 0; i<placas.size():i++){
+              System.out.println(i);
+        }
+        placas.remove(1)
+        System.out.println(placas):
+        if(numeros contain(40)){
+        System.out.println("Carro Existe")
+        }
+        else{
+             System.out.println("Não encontrado");
+  }
+}
+}
+
+        
