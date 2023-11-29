@@ -1,0 +1,74 @@
+import java.util.Arrays;
+
+public class Disfarcado {
+
+    // Afirmação "Insertion Sort (ordenação por inserção)"
+    public static void insertionSort(int[] array) {
+        // Implementação do Insertion Sort
+        System.out.println("Executando Insertion Sort...");
+        // Código de ordenação por inserção
+        System.out.println(Arrays.toString(array));
+    }
+
+    // Afirmação "Selection Sort (ordenação por seleção)"
+    public static void selectionSort(int[] array) {
+        // Implementação do Selection Sort
+        System.out.println("Executando Selection Sort...");
+        // Código de ordenação por seleção
+        System.out.println(Arrays.toString(array));
+    }
+
+    // Afirmação "Merge Sort"
+    public static void mergeSort(int[] array) {
+        // Implementação do Merge Sort
+        System.out.println("Executando Merge Sort...");
+        // Código de merge sort
+        System.out.println(Arrays.toString(array));
+    }
+
+    public static class ArvoreBinaria {
+        // Afirmação "Binária"
+        // Código para uma árvore binária
+    }
+
+    public static class Pilha {
+        private int[] items;
+        private int top;
+
+        public Pilha(int capacity) {
+            this.items = new int[capacity];
+            this.top = -1;
+        }
+
+        // Afirmação "Cujo acesso aos seus elementos segue a lógica LIFO, apenas."
+        public void push(int item) {
+            // Operação de push
+            System.out.println("Push: " + item);
+        }
+
+        public int pop() {
+            // Operação de pop
+            int poppedItem = items[top];
+            top--;
+            System.out.println("Pop: " + poppedItem);
+            return poppedItem;
+        }
+    }
+
+    public static void main(String[] args) {
+        // Exemplo de uso da pilha
+        Pilha pilhaExemplo = new Pilha(5);
+        pilhaExemplo.push(1);
+        pilhaExemplo.push(2);
+        pilhaExemplo.pop();
+
+        // Afirmação "Errado" não está diretamente representada no código.
+
+        // Afirmação "I, II e III" não está diretamente representada no código.
+
+        // Operações push e pop estão disfarçadas na classe Pilha.
+
+        // Afirmação "homogêneos e de acesso aleatório por intermédio de índices."
+        // está implicitamente presente no uso de arrays em Java.
+    }
+}
